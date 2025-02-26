@@ -1,6 +1,7 @@
 import {useState} from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const saveUser = async (email: string, username: string, password: string, e: React.FormEvent) => {
+const saveUser = async (email: string, username: string, password: string, e: React.FormEvent, navigate: any) => {
     e.preventDefault()
 
     const formData = {
@@ -18,6 +19,8 @@ const saveUser = async (email: string, username: string, password: string, e: Re
         const data = await res.json()
         if (!data) {
             alert("Registeration failed")
+        } else {
+            navigate("/login")
         }
         console.log(data)
 
@@ -34,13 +37,15 @@ const Register = () => {
     const [username, setUsername] = useState<string>("")
     const [password, setPassword] = useState<string>("")
 
+    const navigate = useNavigate()
+
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
         if (!username || !password) {
             alert("Some required field is empty")
             return
         }
-        saveUser(email, username, password, e)
+        saveUser(email, username, password, e, navigate)
     }
 
   return (
