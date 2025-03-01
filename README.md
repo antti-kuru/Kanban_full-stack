@@ -22,4 +22,30 @@ Installation guide
 8. click the http://localhost:3000/ link in the terminal
 9. you are good to go
 
+User manual
+1. First you have option to login or register. If you open the app for the first time, you don’t have
+existing account so at the first-time press Register
+2. Create an account and be sure to follow the criteria for username and password. If one of the
+criteria is not met, you are unable to register.
+3. After successful register you are directed to login page where you log in with you created account
+4. After successful login you are directed to Kanban Board page
+5. Start adding columns from “Add column” button
+6. Start adding cards to columns from “Add card” button / delete created columns from “Delete
+column” button
+7. To reorder
+a. press “Drag here to change order” text
+b. Reorder cards by your liking
+c. press “Save edits” button that will display below the cards in the column
+8. To drag cards between columns
+a. press some portion of the card and drag it to another column
+9. Delete card
+a. press “Delete card” Button
+10. Add comment
+a. press “Add comment” button
+b. Type content of the comment and submit
+11. Rename any attribute
+a. press any attribute you want to edit and press “Save”
+12. Logout
+a. press “Logout” in the navigation bar
+
 
