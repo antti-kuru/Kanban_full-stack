@@ -33,9 +33,9 @@ criteria is not met, you are unable to register.
 6. Start adding cards to columns from “Add card” button / delete created columns from “Delete
 column” button
 7. To reorder
-a. press “Drag here to change order” text
-b. Reorder cards by your liking
-c. press “Save edits” button that will display below the cards in the column
+a.) press “Drag here to change order” text
+b.) Reorder cards by your liking
+c.) press “Save edits” button that will display below the cards in the column
 8. To drag cards between columns
 a. press some portion of the card and drag it to another column
 9. Delete card
