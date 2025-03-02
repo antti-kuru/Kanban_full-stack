@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 // Database address
-const mongoDB: string = "mongodb://localhost:27017/Project"
+const mongoDB: string = "mongodb://127.0.0.1:27017/Project"
 mongoose.connect(mongoDB)
 mongoose.Promise = Promise
 const db: Connection = mongoose.connection
